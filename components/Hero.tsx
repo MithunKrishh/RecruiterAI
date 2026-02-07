@@ -88,7 +88,8 @@ export default function Hero() {
 
       {/* Cursor Glow */}
       <motion.div
-        className="pointer-events-none fixed left-0 top-0 z-10 h-40 w-40 -translate-x-1/2 -translate-y-1/2 rounded-full"
+        className="pointer-events-none absolute
+ left-0 top-0 z-10 h-40 w-40 -translate-x-1/2 -translate-y-1/2 rounded-full"
         style={{
           x: sx,
           y: sy,
@@ -101,7 +102,8 @@ export default function Hero() {
       <div className="relative z-20 mx-auto flex h-full max-w-7xl flex-col">
 
         {/* Navbar */}
-        <div className="fixed top-4 left-6 right-6 z-30 grid grid-cols-3 items-center px-6 py-5 border border-white/10 rounded-2xl backdrop-blur-sm bg-white/5 max-w-7xl mx-auto">
+        <div className="absolute
+ top-4 left-6 right-6 z-30 grid grid-cols-3 items-center px-6 py-5 border border-white/10 rounded-2xl backdrop-blur-sm bg-white/5 max-w-7xl mx-auto">
 
           <div className="flex items-center gap-2">
             <div className="h-8 w-8 rounded-lg bg-accent/60" />
@@ -123,7 +125,8 @@ export default function Hero() {
             ))}
           </nav>
 
-          {/* ✅ FIXED */}
+          {/* ✅ absolute
+ */}
           <div className="justify-self-end">
             <a
               href="#"
@@ -161,7 +164,8 @@ export default function Hero() {
               Precision AI for sourcing, matching, and hiring operations.
             </p>
 
-            {/* ✅ FIXED CTA BUTTONS */}
+            {/* ✅ absolute
+ CTA BUTTONS */}
             <div className="mt-8 flex items-center justify-center gap-4">
 
               <a
