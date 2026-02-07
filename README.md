@@ -2,9 +2,7 @@
 
 A modern, high-conversion SaaS landing page built for **RecruiterAI**, an AI-powered recruiting platform that automates the entire hiring workflow.
 
-This project was created as part of the **Founder Intern Assessment – OneSol AI Labs**.
-
-Live Demo → https://your-deployed-link.vercel.app
+Live Demo → https://recruiter-ai-z5kg.vercel.app/
 
 ---
 
